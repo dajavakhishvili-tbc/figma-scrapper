@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+
+/* Scan inline templates in .ts files */
+@source "./**/*.ts";
+@source "./**/*.html";
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --color-surface: #2a2a3c;
+  --color-surface-hover: #333348;
+  --color-surface-active: #3d3d54;
+  --color-base: #1e1e2e;
+  --color-text: #cdd6f4;
+  --color-text-muted: #9399b2;
+  --color-text-dim: #6c7086;
+  --color-border: #45475a;
+  --color-accent: #89b4fa;
+  --color-accent-hover: #74c7ec;
+
+  --color-diff-delete-bg: rgba(243, 139, 168, 0.2);
+  --color-diff-delete-text: #f38ba8;
+  --color-diff-insert-bg: rgba(166, 227, 161, 0.2);
+  --color-diff-insert-text: #a6e3a1;
+
+  --color-match-exact: #a6e3a1;
+  --color-match-close: #f9e2af;
+  --color-match-missing: #f38ba8;
+  --color-match-extra: #89b4fa;
+}
