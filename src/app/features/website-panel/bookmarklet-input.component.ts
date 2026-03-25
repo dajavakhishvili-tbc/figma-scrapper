@@ -20,7 +20,7 @@ import {WebsiteTextNode} from '../../core/models/website.models';
           Extract Text
         </a>
         <p class="text-xs text-text-dim mt-3">
-          After clicking the bookmarklet, switch back here — text loads automatically.
+          Hover to highlight a section, click to extract it. Press <kbd class="bg-base px-1 rounded text-text-muted">Esc</kbd> to extract the full page.
         </p>
       </div>
 
